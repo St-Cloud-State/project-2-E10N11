@@ -1,0 +1,746 @@
+Script started on 2024-10-28 18:33:46+00:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="140" LINES="19"]
+[0;32m@E10N11 [0m➜ [1;34m/workspaces/project1final-E10N11/Warehouse [0;36m([1;31mmain[0;36m) [0m$ javac UserInterface.java 
+[0;32m@E10N11 [0m➜ [1;34m/workspaces/project1final-E10N11/Warehouse [0;36m([1;31mmain[0;36m) [0m$ java UserInterface 
+Look for saved data and  use it? (Y|y)[es] or anything else for no
+n
+Enter a number between 0 and 14 as explained below:
+0 to Exit
+1 to  add a customer
+2 to  add a product
+3 to  print wishlist for a customer
+4 to  print invoices for a customer
+5 to  add product to a customers wishlist 
+6 to  process a customer order 
+7 to  add a customer payment 
+8 to  add stock to a product 
+9 to  print waitlist for a product 
+10 to  print customers
+11 to  print products
+13 to  save data
+12 to  retrieve
+14 for help
+Enter command:14 for help
+1
+Enter customer name
+C1
+Enter address
+Address 1
+Enter balance
+0.00
+Customer ID: 1
+Name: C1
+Address: Address 1
+Balance: 0.0
+Enter command:14 for help
+1
+Enter customer name
+1 C2
+Enter address
+Address 2
+Enter balance
+0.0
+Customer ID: 2
+Name: C2
+Address: Address 2
+Balance: 0.0
+Enter command:14 for help
+1
+Enter customer name
+C3
+Enter address
+Address 3
+Enter balance
+Address       0.0
+Customer ID: 3
+Name: C3
+Address: Address 3
+Balance: 0.0
+Enter command:14 for help
+1
+Enter customer name
+C4
+Enter address
+Address 4
+Enter balance
+0.0
+Customer ID: 4
+Name: C4
+Address: Address 4
+Balance: 0.0
+Enter command:14 for help
+1
+Enter customer name
+C5
+Enter address
+Address 5
+Enter balance
+0.0
+Customer ID: 5
+Name: C5
+Address: Address 5
+Balance: 0.0
+Enter command:14 for help
+14
+Enter a number between 0 and 14 as explained below:
+0 to Exit
+1 to  add a customer
+2 to  add a product
+3 to  print wishlist for a customer
+4 to  print invoices for a customer
+5 to  add product to a customers wishlist 
+6 to  process a customer order 
+7 to  add a customer payment 
+8 to  add stock to a product 
+9 to  print waitlist for a product 
+10 to  print customers
+11 to  print products
+13 to  save data
+12 to  retrieve
+14 for help
+Enter command:14 for help
+10
+Customer ID: 1
+Name: C1
+Address: Address 1
+Balance: 0.0
+Customer ID: 2
+Name: C2
+Address: Address 2
+Balance: 0.0
+Customer ID: 3
+Name: C3
+Address: Address 3
+Balance: 0.0
+Customer ID: 4
+Name: C4
+Address: Address 4
+Balance: 0.0
+Customer ID: 5
+Name: C5
+Address: Address 5
+Balance: 0.0
+Enter command:14 for help
+2
+Enter name
+P1
+Enter price
+1
+Enter quantity
+10
+Id: 1
+Name: P1 
+Price: 1.0
+Stock: 10
+Add more products? (Y|y)[es] or anything else for no
+y
+Enter name
+P2
+Enter price
+2
+Enter quantity
+20
+Id: 2
+Name: P2 
+Price: 2.0
+Stock: 20
+Add more products? (Y|y)[es] or anything else for no
+y
+Enter name
+P3
+Enter price
+3
+Enter quantity
+30
+Id: 3
+Name: P3 
+Price: 3.0
+Stock: 30
+Add more products? (Y|y)[es] or anything else for no
+y
+Enter name
+P4
+Enter price
+4
+Enter quantity
+40
+Id: 4
+Name: P4 
+Price: 4.0
+Stock: 40
+Add more products? (Y|y)[es] or anything else for no
+y
+Enter name
+P5
+Enter price
+5
+Enter quantity
+50
+Id: 5
+Name: P5 
+Price: 5.0
+Stock: 50
+Add more products? (Y|y)[es] or anything else for no
+n
+Enter command:14 for help
+14
+Enter a number between 0 and 14 as explained below:
+0 to Exit
+1 to  add a customer
+2 to  add a product
+3 to  print wishlist for a customer
+4 to  print invoices for a customer
+5 to  add product to a customers wishlist 
+6 to  process a customer order 
+7 to  add a customer payment 
+8 to  add stock to a product 
+9 to  print waitlist for a product 
+10 to  print customers
+11 to  print products
+13 to  save data
+12 to  retrieve
+14 for help
+Enter command:14 for help
+11
+Id: 1
+Name: P1 
+Price: 1.0
+Stock: 10
+Id: 2
+Name: P2 
+Price: 2.0
+Stock: 20
+Id: 3
+Name: P3 
+Price: 3.0
+Stock: 30
+Id: 4
+Name: P4 
+Price: 4.0
+Stock: 40
+Id: 5
+Name: P5 
+Price: 5.0
+Stock: 50
+Enter command:14 for help
+5
+Enter customer Id
+1
+Enter product Id
+1
+Enter quantity
+5
+Product: P1 Quantity: 5
+Enter command:14 for help
+5
+Enter customer Id
+1
+Enter product Id
+3
+Enter quantity
+5
+Product: P3 Quantity: 5
+Enter command:14 for help
+5
+Enter customer Id
+1
+Enter product Id
+5
+Enter quantity
+5
+Product: P5 Quantity: 5
+Enter command:14 for help
+14
+Enter a number between 0 and 14 as explained below:
+0 to Exit
+1 to  add a customer
+2 to  add a product
+3 to  print wishlist for a customer
+4 to  print invoices for a customer
+5 to  add product to a customers wishlist 
+6 to  process a customer order 
+7 to  add a customer payment 
+8 to  add stock to a product 
+9 to  print waitlist for a product 
+10 to  print customers
+11 to  print products
+13 to  save data
+12 to  retrieve
+14 for help
+Enter command:14 for help
+3
+Enter customer Id
+1
+Product: P1 Quantity: 5
+Product: P3 Quantity: 5
+Product: P5 Quantity: 5
+Enter command:14 for help
+5
+Enter customer Id
+2
+Enter product Id
+1
+Enter quantity
+7
+Product: P1 Quantity: 7
+Enter command:14 for help
+5
+Enter customer Id
+2
+Enter product Id
+2
+Enter quantity
+7
+Product: P2 Quantity: 7
+Enter command:14 for help
+5
+Enter customer Id
+2
+Enter product Id
+4
+Enter quantity
+7
+Product: P4 Quantity: 7
+Enter command:14 for help
+3
+Enter customer Id
+2
+Product: P1 Quantity: 7
+Product: P2 Quantity: 7
+Product: P4 Quantity: 7
+Enter command:14 for help
+5
+Enter customer Id
+3
+Enter product Id
+1
+Enter quantity
+6
+Product: P1 Quantity: 6
+Enter command:14 for help
+5
+Enter customer Id
+3
+Enter product Id
+2
+Enter quantity
+6
+Product: P2 Quantity: 6
+Enter command:14 for help
+5
+Enter customer Id
+3
+Enter product Id
+5
+Enter quantity
+6
+Product: P5 Quantity: 6
+Enter command:14 for help
+3
+Enter customer Id
+3
+Product: P1 Quantity: 6
+Product: P2 Quantity: 6
+Product: P5 Quantity: 6
+Enter command:14 for help
+14
+Enter a number between 0 and 14 as explained below:
+0 to Exit
+1 to  add a customer
+2 to  add a product
+3 to  print wishlist for a customer
+4 to  print invoices for a customer
+5 to  add product to a customers wishlist 
+6 to  process a customer order 
+7 to  add a customer payment 
+8 to  add stock to a product 
+9 to  print waitlist for a product 
+10 to  print customers
+11 to  print products
+13 to  save data
+12 to  retrieve
+14 for help
+Enter command:14 for help
+6
+Enter customer Id
+2
+Product: P1 Quantity: 7
+Add Item to Order as is? (Y|y)[es] or anything else for no
+y
+Product: P2 Quantity: 7
+Add Item to Order as is? (Y|y)[es] or anything else for no
+y
+Product: P4 Quantity: 7
+Add Item to Order as is? (Y|y)[es] or anything else for no
+y
+Order Invoice:
+Product: P1 Quantity: 7 Price: 7.0
+Product: P2 Quantity: 7 Price: 14.0
+Product: P4 Quantity: 7 Price: 28.0
+Total Price: 49.00
+Enter command:14 for help
+14
+Enter a number between 0 and 14 as explained below:
+0 to Exit
+1 to  add a customer
+2 to  add a product
+3 to  print wishlist for a customer
+4 to  print invoices for a customer
+5 to  add product to a customers wishlist 
+6 to  process a customer order 
+7 to  add a customer payment 
+8 to  add stock to a product 
+9 to  print waitlist for a product 
+10 to  print customers
+11 to  print products
+13 to  save data
+12 to  retrieve
+14 for help
+Enter command:14 for help
+10
+Customer ID: 1
+Name: C1
+Address: Address 1
+Balance: 0.0
+Customer ID: 2
+Name: C2
+Address: Address 2
+Balance: -49.0
+Customer ID: 3
+Name: C3
+Address: Address 3
+Balance: 0.0
+Customer ID: 4
+Name: C4
+Address: Address 4
+Balance: 0.0
+Customer ID: 5
+Name: C5
+Address: Address 5
+Balance: 0.0
+Enter command:14 for help
+6
+Enter customer Id
+3
+Product: P1 Quantity: 6
+Add Item to Order as is? (Y|y)[es] or anything else for no
+y
+Product: P2 Quantity: 6
+Add Item to Order as is? (Y|y)[es] or anything else for no
+y
+Product: P5 Quantity: 6
+Add Item to Order as is? (Y|y)[es] or anything else for no
+y
+Order Invoice:
+Product: P1 Quantity: 3 Price: 3.0
+Product: P2 Quantity: 6 Price: 12.0
+Product: P5 Quantity: 6 Price: 30.0
+Total Price: 45.00
+Enter command:14 for help
+10
+Customer ID: 1
+Name: C1
+Address: Address 1
+Balance: 0.0
+Customer ID: 2
+Name: C2
+Address: Address 2
+Balance: -49.0
+Customer ID: 3
+Name: C3
+Address: Address 3
+Balance: -45.0
+Customer ID: 4
+Name: C4
+Address: Address 4
+Balance: 0.0
+Customer ID: 5
+Name: C5
+Address: Address 5
+Balance: 0.0
+Enter command:14 for help
+14
+Enter a number between 0 and 14 as explained below:
+0 to Exit
+1 to  add a customer
+2 to  add a product
+3 to  print wishlist for a customer
+4 to  print invoices for a customer
+5 to  add product to a customers wishlist 
+6 to  process a customer order 
+7 to  add a customer payment 
+8 to  add stock to a product 
+9 to  print waitlist for a product 
+10 to  print customers
+11 to  print products
+13 to  save data
+12 to  retrieve
+14 for help
+Enter command:14 for help
+3
+Enter customer Id
+2
+Enter command:14 for help
+3
+Enter customer Id
+3
+Enter command:14 for help
+9
+Enter product Id
+1
+Customer: (ID:3)C3 Quantity: 3
+Enter command:14 for help
+9
+Enter product Id
+2
+Enter command:14 for help
+6
+Enter customer Id
+1
+Product: P1 Quantity: 5
+Add Item to Order as is? (Y|y)[es] or anything else for no
+y
+Product: P3 Quantity: 5
+Add Item to Order as is? (Y|y)[es] or anything else for no
+y
+Product: P5 Quantity: 5
+Add Item to Order as is? (Y|y)[es] or anything else for no
+y
+Order Invoice:
+Product: P1 Quantity: 0 Price: 0.0
+Product: P3 Quantity: 5 Price: 15.0
+Product: P5 Quantity: 5 Price: 25.0
+Total Price: 40.00
+Enter command:14 for help
+14
+Enter a number between 0 and 14 as explained below:
+0 to Exit
+1 to  add a customer
+2 to  add a product
+3 to  print wishlist for a customer
+4 to  print invoices for a customer
+5 to  add product to a customers wishlist 
+6 to  process a customer order 
+7 to  add a customer payment 
+8 to  add stock to a product 
+9 to  print waitlist for a product 
+10 to  print customers
+11 to  print products
+13 to  save data
+12 to  retrieve
+14 for help
+Enter command:14 for help
+10
+Customer ID: 1
+Name: C1
+Address: Address 1
+Balance: -40.0
+Customer ID: 2
+Name: C2
+Address: Address 2
+Balance: -49.0
+Customer ID: 3
+Name: C3
+Address: Address 3
+Balance: -45.0
+Customer ID: 4
+Name: C4
+Address: Address 4
+Balance: 0.0
+Customer ID: 5
+Name: C5
+Address: Address 5
+Balance: 0.0
+Enter command:14 for help
+14
+Enter a number between 0 and 14 as explained below:
+0 to Exit
+1 to  add a customer
+2 to  add a product
+3 to  print wishlist for a customer
+4 to  print invoices for a customer
+5 to  add product to a customers wishlist 
+6 to  process a customer order 
+7 to  add a customer payment 
+8 to  add stock to a product 
+9 to  print waitlist for a product 
+10 to  print customers
+11 to  print products
+13 to  save data
+12 to  retrieve
+14 for help
+Enter command:14 for help
+3
+Enter customer Id
+1
+Enter command:14 for help
+7
+Enter customer Id
+1
+Enter paymet amount for customer
+100
+Customer ID: 1
+Name: C1
+Address: Address 1
+Balance: 60.0
+Enter command:14 for help
+7
+Enter customer Id
+2
+Enter paymet amount for customer
+100
+Customer ID: 2
+Name: C2
+Address: Address 2
+Balance: 51.0
+Enter command:14 for help
+10
+Customer ID: 1
+Name: C1
+Address: Address 1
+Balance: 60.0
+Customer ID: 2
+Name: C2
+Address: Address 2
+Balance: 51.0
+Customer ID: 3
+Name: C3
+Address: Address 3
+Balance: -45.0
+Customer ID: 4
+Name: C4
+Address: Address 4
+Balance: 0.0
+Customer ID: 5
+Name: C5
+Address: Address 5
+Balance: 0.0
+Enter command:14 for help
+14
+Enter a number between 0 and 14 as explained below:
+0 to Exit
+1 to  add a customer
+2 to  add a product
+3 to  print wishlist for a customer
+4 to  print invoices for a customer
+5 to  add product to a customers wishlist 
+6 to  process a customer order 
+7 to  add a customer payment 
+8 to  add stock to a product 
+9 to  print waitlist for a product 
+10 to  print customers
+11 to  print products
+13 to  save data
+12 to  retrieve
+14 for help
+Enter command:14 for help
+8
+Enter product Id
+1
+Enter the amount of stock to add
+100
+Id: 1
+Name: P1 
+Price: 1.0
+Stock: 97
+Enter command:14 for help
+14
+Enter a number between 0 and 14 as explained below:
+0 to Exit
+1 to  add a customer
+2 to  add a product
+3 to  print wishlist for a customer
+4 to  print invoices for a customer
+5 to  add product to a customers wishlist 
+6 to  process a customer order 
+7 to  add a customer payment 
+8 to  add stock to a product 
+9 to  print waitlist for a product 
+10 to  print customers
+11 to  print products
+13 to  save data
+12 to  retrieve
+14 for help
+Enter command:14 for help
+11
+Id: 1
+Name: P1 
+Price: 1.0
+Stock: 97
+Id: 2
+Name: P2 
+Price: 2.0
+Stock: 7
+Id: 3
+Name: P3 
+Price: 3.0
+Stock: 25
+Id: 4
+Name: P4 
+Price: 4.0
+Stock: 33
+Id: 5
+Name: P5 
+Price: 5.0
+Stock: 39
+Enter command:14 for help
+10
+Customer ID: 1
+Name: C1
+Address: Address 1
+Balance: 60.0
+Customer ID: 2
+Name: C2
+Address: Address 2
+Balance: 51.0
+Customer ID: 3
+Name: C3
+Address: Address 3
+Balance: -48.0
+Customer ID: 4
+Name: C4
+Address: Address 4
+Balance: 0.0
+Customer ID: 5
+Name: C5
+Address: Address 5
+Balance: 0.0
+Enter command:14 for help
+14
+Enter a number between 0 and 14 as explained below:
+0 to Exit
+1 to  add a customer
+2 to  add a product
+3 to  print wishlist for a customer
+4 to  print invoices for a customer
+5 to  add product to a customers wishlist 
+6 to  process a customer order 
+7 to  add a customer payment 
+8 to  add stock to a product 
+9 to  print waitlist for a product 
+10 to  print customers
+11 to  print products
+13 to  save data
+12 to  retrieve
+14 for help
+Enter command:14 for help
+4
+Enter customer Id
+1
+Product: P1 Quantity: 0 Price: 0.0
+Product: P3 Quantity: 5 Price: 15.0
+Product: P5 Quantity: 5 Price: 25.0
+Total Price: 40.00
+Enter command:14 for help
+4
+Enter customer Id
+2
+Product: P1 Quantity: 7 Price: 7.0
+Product: P2 Quantity: 7 Price: 14.0
+Product: P4 Quantity: 7 Price: 28.0
+Total Price: 49.00
+Enter command:14 for help
+0
+[0;32m@E10N11 [0m➜ [1;34m/workspaces/project1final-E10N11/Warehouse [0;36m([1;31mmain[0;36m) [0m$ exit
+exit
+
+Script done on 2024-10-28 18:53:04+00:00 [COMMAND_EXIT_CODE="0"]
