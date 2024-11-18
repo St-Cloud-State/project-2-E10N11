@@ -12,7 +12,7 @@ public class ManagerState extends WareState {
   private static final int ADD_SHIPMENT = 3;
   private static final int BECOME_CLERK = 4;
   private static final int LOGOUT = 5;
-  private static final int HELP = 8;
+  private static final int HELP = 6;
   private ManagerState() { 
       super();
       warehouse = Warehouse.instance();

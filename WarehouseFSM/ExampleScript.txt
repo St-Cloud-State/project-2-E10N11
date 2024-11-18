@@ -1,0 +1,655 @@
+Script started on 2024-11-18 22:13:05+00:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="329" LINES="59"]
+[0;32m@E10N11 [0m➜ [1;34m/workspaces/project-2-E10N11/WarehouseFSM [0;36m([1;31mmain[0;36m) [0m$ java WareContext [6@c WareContext.java[C
+[0;32m@E10N11 [0m➜ [1;34m/workspaces/project-2-E10N11/WarehouseFSM [0;36m([1;31mmain[0;36m) [0m$ javac WareContext.java [6P WareContext[C
+calling constructor
+In WareContext constructor
+Look for saved data and  use it? (Y|y)[es] or anything else for no
+n
+Constructor Complete
+Please enter state to login too: (0 for customer, 1 for clerk, 2 for manager)
+1
+Enter a number between 0 and 8 as explained below:
+0 to Exit
+
+1 to  add customer
+2 to  list all products
+3 to  list all customers
+4 to  list customers with outstanding balance
+5 to  add payment to customer
+6 to  become customer
+7 to  logout
+8 for help
+Enter command:8 for help
+1
+Enter customer name
+C1
+Enter address
+C1Address
+Enter balance
+0.00
+Customer Added:
+Customer ID: 1
+Name: C1
+Address: C1Address
+Balance: 0.0
+Enter command:8 for help
+1
+Enter customer name
+C2
+Enter address
+C2Address
+Enter balance
+0.00
+Customer Added:
+Customer ID: 2
+Name: C2
+Address: C2Address
+Balance: 0.0
+Enter command:8 for help
+1
+Enter customer name
+C3
+Enter address
+C3Address
+Enter balance
+0.00
+Customer Added:
+Customer ID: 3
+Name: C3
+Address: C3Address
+Balance: 0.0
+Enter command:8 for help
+1
+Enter customer name
+C4
+Enter address
+C4Address
+Enter balance
+0.00
+Customer Added:
+Customer ID: 4
+Name: C4
+Address: C4Address
+Balance: 0.0
+Enter command:8 for help
+1
+Enter customer name
+C5
+Enter address
+C5Address
+Enter balance
+0.00
+Customer Added:
+Customer ID: 5
+Name: C5
+Address: C5Address
+Balance: 0.0
+Enter command:8 for help
+8
+Enter a number between 0 and 8 as explained below:
+0 to Exit
+
+1 to  add customer
+2 to  list all products
+3 to  list all customers
+4 to  list customers with outstanding balance
+5 to  add payment to customer
+6 to  become customer
+7 to  logout
+8 for help
+Enter command:8 for help
+3
+Customer ID: 1
+Name: C1
+Address: C1Address
+Balance: 0.0
+Customer ID: 2
+Name: C2
+Address: C2Address
+Balance: 0.0
+Customer ID: 3
+Name: C3
+Address: C3Address
+Balance: 0.0
+Customer ID: 4
+Name: C4
+Address: C4Address
+Balance: 0.0
+Customer ID: 5
+Name: C5
+Address: C5Address
+Balance: 0.0
+
+  There are no more customers 
+
+Enter command:8 for help
+8
+Enter a number between 0 and 8 as explained below:
+0 to Exit
+
+1 to  add customer
+2 to  list all products
+3 to  list all customers
+4 to  list customers with outstanding balance
+5 to  add payment to customer
+6 to  become customer
+7 to  logout
+8 for help
+Enter command:8 for help
+7
+Please enter state to login too: (0 for customer, 1 for clerk, 2 for manager)
+2
+Enter a number between 0 and 6 as explained below:
+0 to Exit
+
+1 to  add products
+2 to  show product waitlist
+3 to  add product shipment 
+4 to  become a salesclerk 
+5 to  logout
+6 for help
+Enter command:6 for help
+1
+Enter name
+P1
+Enter price
+1
+Enter quantity
+10
+Id: 1
+Name: P1 
+Price: 1.0
+Stock: 10
+Add more products? (Y|y)[es] or anything else for no
+y
+Enter name
+P2
+Enter price
+2
+Enter quantity
+20
+Id: 2
+Name: P2 
+Price: 2.0
+Stock: 20
+Add more products? (Y|y)[es] or anything else for no
+y
+Enter name
+P3
+Enter price
+3
+Enter quantity
+30
+Id: 3
+Name: P3 
+Price: 3.0
+Stock: 30
+Add more products? (Y|y)[es] or anything else for no
+y
+Enter name
+P4
+Enter price
+4
+Enter quantity
+40
+Id: 4
+Name: P4 
+Price: 4.0
+Stock: 40
+Add more products? (Y|y)[es] or anything else for no
+y
+Enter name
+P5
+Enter price
+5
+Enter quantity
+50
+Id: 5
+Name: P5 
+Price: 5.0
+Stock: 50
+Add more products? (Y|y)[es] or anything else for no
+n
+Enter command:6 for help
+6
+Enter a number between 0 and 6 as explained below:
+0 to Exit
+
+1 to  add products
+2 to  show product waitlist
+3 to  add product shipment 
+4 to  become a salesclerk 
+5 to  logout
+6 for help
+Enter command:6 for help
+4
+Enter a number between 0 and 8 as explained below:
+0 to Exit
+
+1 to  add customer
+2 to  list all products
+3 to  list all customers
+4 to  list customers with outstanding balance
+5 to  add payment to customer
+6 to  become customer
+7 to  logout
+8 for help
+Enter command:8 for help
+2
+Id: 1
+Name: P1 
+Price: 1.0
+Stock: 10
+Id: 2
+Name: P2 
+Price: 2.0
+Stock: 20
+Id: 3
+Name: P3 
+Price: 3.0
+Stock: 30
+Id: 4
+Name: P4 
+Price: 4.0
+Stock: 40
+Id: 5
+Name: P5 
+Price: 5.0
+Stock: 50
+
+  There are no more products 
+
+Enter command:8 for help
+8
+Enter a number between 0 and 8 as explained below:
+0 to Exit
+
+1 to  add customer
+2 to  list all products
+3 to  list all customers
+4 to  list customers with outstanding balance
+5 to  add payment to customer
+6 to  become customer
+7 to  logout
+8 for help
+Enter command:8 for help
+6
+Input userId
+1
+Enter a number between 0 and 8 as explained below:
+0 to Exit
+
+1 to  show deatils
+2 to  all products
+3 to  list Transactions 
+4 to  add item to wishlist
+5 to  show wishlist
+6 to  place order
+7 to  logout
+8 for help
+Enter command:8 for help
+4
+Enter product id
+1
+How many would you like?
+5
+Product: P1 Quantity: 5
+Enter command:8 for help
+4
+Enter product id
+3
+How many would you like?
+5
+Product: P3 Quantity: 5
+Enter command:8 for help
+4
+Enter product id
+5
+How many would you like?
+5
+Product: P5 Quantity: 5
+Enter command:8 for help
+8
+Enter a number between 0 and 8 as explained below:
+0 to Exit
+
+1 to  show deatils
+2 to  all products
+3 to  list Transactions 
+4 to  add item to wishlist
+5 to  show wishlist
+6 to  place order
+7 to  logout
+8 for help
+Enter command:8 for help
+5
+Product: P1 Quantity: 5
+Product: P3 Quantity: 5
+Product: P5 Quantity: 5
+Enter command:8 for help
+7
+Enter a number between 0 and 8 as explained below:
+0 to Exit
+
+1 to  add customer
+2 to  list all products
+3 to  list all customers
+4 to  list customers with outstanding balance
+5 to  add payment to customer
+6 to  become customer
+7 to  logout
+8 for help
+Enter command:8 for help
+6
+Input userId
+2
+Enter a number between 0 and 8 as explained below:
+0 to Exit
+
+1 to  show deatils
+2 to  all products
+3 to  list Transactions 
+4 to  add item to wishlist
+5 to  show wishlist
+6 to  place order
+7 to  logout
+8 for help
+Enter command:8 for help
+4
+Enter product id
+1
+How many would you like?
+7
+Product: P1 Quantity: 7
+Enter command:8 for help
+4
+Enter product id
+2
+How many would you like?
+7
+Product: P2 Quantity: 7
+Enter command:8 for help
+4
+Enter product id
+4
+How many would you like?
+7
+Product: P4 Quantity: 7
+Enter command:8 for help
+5
+Product: P1 Quantity: 7
+Product: P2 Quantity: 7
+Product: P4 Quantity: 7
+Enter command:8 for help
+8
+Enter a number between 0 and 8 as explained below:
+0 to Exit
+
+1 to  show deatils
+2 to  all products
+3 to  list Transactions 
+4 to  add item to wishlist
+5 to  show wishlist
+6 to  place order
+7 to  logout
+8 for help
+Enter command:8 for help
+1
+Customer ID: 2
+Name: C2
+Address: C2Address
+Balance: 0.0
+Enter command:8 for help
+7
+Enter a number between 0 and 8 as explained below:
+0 to Exit
+
+1 to  add customer
+2 to  list all products
+3 to  list all customers
+4 to  list customers with outstanding balance
+5 to  add payment to customer
+6 to  become customer
+7 to  logout
+8 for help
+Enter command:8 for help
+7
+Enter a number between 0 and 6 as explained below:
+0 to Exit
+
+1 to  add products
+2 to  show product waitlist
+3 to  add product shipment 
+4 to  become a salesclerk 
+5 to  logout
+6 for help
+Enter command:6 for help
+7 5
+Please enter state to login too: (0 for customer, 1 for clerk, 2 for manager)
+0
+Input user password
+3
+Enter a number between 0 and 8 as explained below:
+0 to Exit
+
+1 to  show deatils
+2 to  all products
+3 to  list Transactions 
+4 to  add item to wishlist
+5 to  show wishlist
+6 to  place order
+7 to  logout
+8 for help
+Enter command:8 for help
+1
+Customer ID: 3
+Name: C3
+Address: C3Address
+Balance: 0.0
+Enter command:8 for help
+4
+Enter product id
+1
+How many would you like?
+6
+Product: P1 Quantity: 6
+Enter command:8 for help
+4
+Enter product id
+2
+How many would you like?
+6
+Product: P2 Quantity: 6
+Enter command:8 for help
+4
+Enter product id
+5
+How many would you like?
+6
+Product: P5 Quantity: 6
+Enter command:8 for help
+5
+Product: P1 Quantity: 6
+Product: P2 Quantity: 6
+Product: P5 Quantity: 6
+Enter command:8 for help
+7
+Please enter state to login too: (0 for customer, 1 for clerk, 2 for manager)
+0
+Input user password
+2
+Enter a number between 0 and 8 as explained below:
+0 to Exit
+
+1 to  show deatils
+2 to  all products
+3 to  list Transactions 
+4 to  add item to wishlist
+5 to  show wishlist
+6 to  place order
+7 to  logout
+8 for help
+Enter command:8 for help
+1
+Customer ID: 2
+Name: C2
+Address: C2Address
+Balance: 0.0
+Enter command:8 for help
+6
+Product: P1 Quantity: 7
+Add Item to Order as is? (Y|y)[es] or anything else for no
+y
+Product: P2 Quantity: 7
+Add Item to Order as is? (Y|y)[es] or anything else for no
+y
+Product: P4 Quantity: 7
+Add Item to Order as is? (Y|y)[es] or anything else for no
+y
+Order Invoice:
+Product: P1 Quantity: 7 Price: 7.0
+Product: P2 Quantity: 7 Price: 14.0
+Product: P4 Quantity: 7 Price: 28.0
+Total Price: 49.00
+Enter command:8 for help
+1
+Customer ID: 2
+Name: C2
+Address: C2Address
+Balance: -49.0
+Enter command:8 for help
+7
+Please enter state to login too: (0 for customer, 1 for clerk, 2 for manager)
+1
+Enter a number between 0 and 8 as explained below:
+0 to Exit
+
+1 to  add customer
+2 to  list all products
+3 to  list all customers
+4 to  list customers with outstanding balance
+5 to  add payment to customer
+6 to  become customer
+7 to  logout
+8 for help
+Enter command:8 for help
+3
+Customer ID: 1
+Name: C1
+Address: C1Address
+Balance: 0.0
+Customer ID: 2
+Name: C2
+Address: C2Address
+Balance: -49.0
+Customer ID: 3
+Name: C3
+Address: C3Address
+Balance: 0.0
+Customer ID: 4
+Name: C4
+Address: C4Address
+Balance: 0.0
+Customer ID: 5
+Name: C5
+Address: C5Address
+Balance: 0.0
+
+  There are no more customers 
+
+Enter command:8 for help
+6
+Input userId
+3
+Enter a number between 0 and 8 as explained below:
+0 to Exit
+
+1 to  show deatils
+2 to  all products
+3 to  list Transactions 
+4 to  add item to wishlist
+5 to  show wishlist
+6 to  place order
+7 to  logout
+8 for help
+Enter command:8 for help
+6
+Product: P1 Quantity: 6
+Add Item to Order as is? (Y|y)[es] or anything else for no
+y
+Product: P2 Quantity: 6
+Add Item to Order as is? (Y|y)[es] or anything else for no
+y
+Product: P5 Quantity: 6
+Add Item to Order as is? (Y|y)[es] or anything else for no
+y
+Order Invoice:
+Product: P1 Quantity: 3 Price: 3.0
+Product: P2 Quantity: 6 Price: 12.0
+Product: P5 Quantity: 6 Price: 30.0
+Total Price: 45.00
+Enter command:8 for help
+7
+Enter a number between 0 and 8 as explained below:
+0 to Exit
+
+1 to  add customer
+2 to  list all products
+3 to  list all customers
+4 to  list customers with outstanding balance
+5 to  add payment to customer
+6 to  become customer
+7 to  logout
+8 for help
+Enter command:8 for help
+3
+Customer ID: 1
+Name: C1
+Address: C1Address
+Balance: 0.0
+Customer ID: 2
+Name: C2
+Address: C2Address
+Balance: -49.0
+Customer ID: 3
+Name: C3
+Address: C3Address
+Balance: -45.0
+Customer ID: 4
+Name: C4
+Address: C4Address
+Balance: 0.0
+Customer ID: 5
+Name: C5
+Address: C5Address
+Balance: 0.0
+
+  There are no more customers 
+
+Enter command:8 for help
+4
+Customer ID: 2
+Name: C2
+Address: C2Address
+Balance: -49.0
+Customer ID: 3
+Name: C3
+Address: C3Address
+Balance: -45.0
+
+  There are no more customers 
+
+Enter command:8 for help
+7
+Please enter state to login too: (0 for customer, 1 for clerk, 2 for manager)
+3
+Save data? (Y|y)[es] or anything else for no
+y
+ The warehouse has been successfully saved in the file WarehouseData 
+
+ Goodbye 
+ 
+[0;32m@E10N11 [0m➜ [1;34m/workspaces/project-2-E10N11/WarehouseFSM [0;36m([1;31mmain[0;36m) [0m$ ei[Kxit
+exit
+
+Script done on 2024-11-18 22:24:20+00:00 [COMMAND_EXIT_CODE="0"]
