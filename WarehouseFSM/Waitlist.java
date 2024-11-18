@@ -1,7 +1,6 @@
 import java.util.*;
 import java.lang.*;
 import java.io.*;
-import java.util.LinkedList;
 public class Waitlist implements Serializable{
     private int productId;
     private List<WaitlistItem> items  = new LinkedList<WaitlistItem>();
@@ -25,6 +24,11 @@ public class Waitlist implements Serializable{
     {
         items.add(w);
         return true;
+    }
+
+    public List<WaitlistItem> getListOfItems()
+    {
+        return items;
     }
 
     public boolean remove(WaitlistItem w)

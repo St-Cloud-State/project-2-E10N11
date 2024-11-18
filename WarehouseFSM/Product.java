@@ -45,11 +45,13 @@ public class Product implements Serializable{
 
     public int fulfillWaitlist(int q)
     {
-        Iterator items = this.waitlist.getItems();
         int remaining = q;
-        while (items.hasNext()) 
+        Waitlist producWaitlist = getWaitlist();
+        List<WaitlistItem> waitlistItems = producWaitlist.getListOfItems();
+        int refSize = waitlistItems.size();
+        for(int i = 0; i < refSize; i++)
         {
-            WaitlistItem wli = (WaitlistItem)items.next();
+            WaitlistItem wli = waitlistItems.get(i);
             if(remaining > 0 && wli.getQuantity() < remaining)
             {
                 OrderItem oi = new OrderItem(this, wli.getQuantity());

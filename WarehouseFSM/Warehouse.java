@@ -12,15 +12,15 @@ public class Warehouse implements Serializable {
         customersList = CustomersList.getInstance();
         productList = ProductList.getInstance();
       }
-      public static Warehouse instance() {
-        if (warehouse == null) {
-          CustomerIdServer.getInstance(); // instantiate all singletons
-          ProductIdServer.getInstance();
-          return (warehouse = new Warehouse());
-        } else {
-          return warehouse;
-        }
+    public static Warehouse instance() {
+      if (warehouse == null) {
+        CustomerIdServer.getInstance(); // instantiate all singletons
+        ProductIdServer.getInstance();
+        return (warehouse = new Warehouse());
+      } else {
+        return warehouse;
       }
+    }
       public Customer addCustomer(String name, String address, double balance) {
         Customer customer = new Customer(name, address, balance);
         if (customersList.addCustomer(customer)) {
@@ -98,7 +98,12 @@ public class Warehouse implements Serializable {
           userWishlist.remove(userWishlist.find(pid));
         }
       }
-
+      public Customer searchCustomer(String cId) {
+        return customersList.find(Integer.parseInt(cId));
+      }
+      public Customer searchCustomer(int cId) {
+        return customersList.find(cId);
+      }
       public Invoice createOrder(int cid)
       {
         return customersList.find(cid).ProcessOrder();
